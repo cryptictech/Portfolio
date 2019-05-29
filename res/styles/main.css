@@ -1,0 +1,140 @@
+html{
+	height:100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+	background-color: #91e1ff;
+}
+
+div{
+	padding:0px;
+	margin: 0px;
+}
+
+p {
+	margin: 1.66%;
+	font-size: 22px;
+}
+
+
+
+
+.photogallery {
+	display: inline-block;
+	background-color: #FFFFFF;
+	width: 100%;
+	min-height:100%;
+	height: auto;
+	padding:1px;
+	padding-bottom: 1.5%;
+}
+
+.page-wrapper{
+	background-image: url("../img/background.png");
+	background-size: auto;
+	-webkit-background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	position:fixed;
+	overflow: scroll;
+}
+
+.title {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	font-size: 34px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-left: 1.66%;
+	width: 30%;
+	padding-bottom: 12px;
+	border-bottom: 3px solid #91e1ff;
+}
+
+.gallery_photo{
+	display: inline-block;
+	width:30%;
+	padding-bottom: 30%;
+	background-color: #91e1ff;
+	margin:1.66%;
+	float: left;
+}
+
+#vicPic {
+	background-image: url("../img/vic.JPG");
+	background-position: 70% 70%;
+	background-size: 200%;
+}
+
+#carPic {
+	background-image: url("../img/car.JPG");
+	background-position: 70% 35%;
+	background-size: 150%;
+}
+
+#dadPic {
+	background-image: url("../img/dad.JPG");
+	background-position: 50% 50%;
+	background-size: 200%;
+}
+
+#catPic {
+	background-image: url("../img/doggo.JPG");
+	background-size: 140%;
+	background-position: 50% 70%;
+}
+
+#woodlandPic{
+	background-image: url("../img/woodland.JPG");
+	background-size: 150%;
+	background-position: 20% 60%;
+}
+
+#workPic{
+	background-image: url("../img/work.JPG");
+	background-size: 135%;
+	background-position: 40% 50%;
+
+	/*Rotates image 180 because for some reason it loads flipped.*/
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=0, M21=0, M22=-1, DX=0, DY=0, SizingMethod='auto expand');
+}
+
+#bestfriendPic{
+	background-image: url("../img/woodland.JPG");
+	background-size: 150%;
+	background-position: 20% 60%;
+}
+
+#hometownPic{
+	background-image: url("../img/woodland.JPG");
+	background-size: 150%;
+	background-position: 20% 60%;
+}
+
+#valleyPic{
+	background-image: url("../img/valley.JPG");
+	background-size: 140%;
+	background-position: 50% 50%;
+}
+
+.body{
+	background-color: rgba(0, 0, 0, 0.5);
+	width:100%;
+	min-height:100%;
+	padding:1px;
+	color: #FFFFFF;
+}
